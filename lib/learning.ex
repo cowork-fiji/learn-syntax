@@ -5,7 +5,8 @@ defmodule Learning do
 
   alias Learning.{
     ModuleA,
-    ModuleB
+    ModuleB,
+    Tax
   }
 
   @doc """
@@ -28,6 +29,10 @@ defmodule Learning do
 
   def hello(:b) do
     ModuleB.function_a()
+  end
+
+  def persional_tax(salary, taxrate) do
+    Tax.persional_tax(salary, taxrate)
   end
 
   # Call this in iex like so:
