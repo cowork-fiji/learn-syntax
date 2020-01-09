@@ -31,8 +31,8 @@ defmodule Learning do
     ModuleB.function_a()
   end
 
-  def persional_tax(salary, taxrate) do
-    Tax.persional_tax(salary, taxrate)
+  def personal_tax(salary, taxr) do
+    Tax.personal_tax(salary, taxr)
   end
 
   # Call this in iex like so:
